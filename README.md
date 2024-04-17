@@ -21,5 +21,9 @@ mysql -u <username> -p < create_database.sql
 - Al ejecutar el script, se pedirá por teclado el archivo excel que se desea leer. Deja este campo vacío para seleccionar el primero que aparece en la lista.
 - Si el archivo excel está protegido por contraseña, el programa pedirá ingresar la contraseña por teclado.
 - Luego, el programa solicitará credenciales de usuario MySQL para conectarse con la base de datos `test_altos_ejecutivos`.
-- Una vez establecida la conexión, el programa realizará las inserciones de datos correspondiente a la base de datos.
+- Una vez establecida la conexión, el programa realizará las inserciones correspondientes a la base de datos.
+
+## Whats next
+- Ahora la base de datos está cargada con información esperando ser utilizada por el sitio web.
+- Para instalar el sitio web dirígase a [este repositorio](https://github.com/DeusCL/symfony_excel).
 
