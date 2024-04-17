@@ -15,11 +15,11 @@ Antes de ejecutar main.py se requiere tener una base de datos llamada `test_alto
 ```bach
 mysql -u <username> -p < create_database.sql
 ```
-
 ## Uso:
-- El archivo excel a leer debe estar en el current working directory de main.py
-- Al ejecutar el script se pedirá por teclado el archivo excel que se desea leer.
+- El archivo excel que se desea leer debe estar en el current working directory de `main.py`.
+- Teniendo el archivo excel preparado, ejecuta el script: `main.py`.
+- Al ejecutar el script, se pedirá por teclado el archivo excel que se desea leer. Deja este campo vacío para seleccionar el primero que aparece en la lista.
 - Si el archivo excel está protegido por contraseña, el programa pedirá ingresar la contraseña por teclado.
-- Luego, el programa solicitará credenciales de usuario MySQL para conectarse con la base de datos.
-- Una vez que esté la base conectada y todo ingresado correctamente, el programa realizará las inserciones de datos a la base de datos.
+- Luego, el programa solicitará credenciales de usuario MySQL para conectarse con la base de datos `test_altos_ejecutivos`.
+- Una vez establecida la conexión, el programa realizará las inserciones de datos correspondiente a la base de datos.
 
